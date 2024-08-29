@@ -1,11 +1,16 @@
-# Commandes
+# Few important commands
 
-### import gin
-"go get github.com/gin-gonic/gin"
+### Import gin library
+```go get github.com/gin-gonic/gin```
 
+### Project init
+```go mod init example/web-service-gin```
 
-### Initialisation du projet
-"go mod init example/web-service-gin"
+### Import gorm (ORM for Go projetcs)
+```go get -u gorm.io/gorm```
 
-### Lancement du build du projet avec exec
-"go build"
+### Import Mysql driver
+```go get -u gorm.io/driver/mysql```
+
+### Build project with exec
+```go build```
